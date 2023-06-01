@@ -1,0 +1,33 @@
+{
+  "academia": {
+
+    "direccion": {
+      "calle": "123",
+      "ciudad": "Villa Carlos Paz"
+    },
+    "cursos": [
+      {
+        "nombre": "Inglés básico",
+        "nivel": "principiantes",
+        "duracion": 4,
+        "precio": 100
+      },
+      {
+        "nombre": "Inglés Avanzado",
+        "nivel": "avanzados",
+        "duracion": 20,
+        "precio": 400
+      },
+      {
+        "nombre": "Italiano básico",
+        "nivel": "principiantes",
+        "duracion": 5,
+        "precio": 120
+      }
+    ],
+    "telefonos": [
+      "156734756",
+      "154456234"
+    ]
+  }
+}
