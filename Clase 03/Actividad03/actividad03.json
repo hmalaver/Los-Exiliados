@@ -1,0 +1,206 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Dentro de qué elemento HTML ponemos el JavaScript?",
+      "respuesta_correcta": "a",
+      "opciones": {
+        "a": "<script/>",
+        "b": "<js/>",
+        "c": "<javascript/>"
+      }
+    },
+    {
+      "pregunta": "¿Cuál es la sintaxis de JavaScript correcta para cambiar el contenido del elemento HTML a continuación?\n\n<p id=\"demo\">Esta es una demostración.</p>",
+      "respuesta_correcta": "c",
+      "opciones": {
+        "a": "document.getElementByName('p').innerHTML = \"Hello World!\";",
+        "b": "document.getElement('p').innerHTML = \"Hello World!\";",
+        "c": "document.getElementById('demo').innerHTML = \"Hello World!\";"
+      }
+    },
+    {
+      "pregunta": "¿Dónde está el lugar correcto para insertar un JavaScript?",
+      "respuesta_correcta": "c",
+      "opciones": {
+        "a": "Es mejor dentro del <body>",
+        "b": "Es mejor en el <head>",
+        "c": "En ambos lugares es funcional"
+      }
+    },
+    {
+      "pregunta": "¿Cuál es la sintaxis correcta para referirse a un script externo llamado \"xxx.js\"?",
+      "respuesta_correcta": "c",
+      "opciones": {
+        "a": "<script href=\"xxx.js\"/>",
+        "b": "<script name=\"xxx.js\"/>",
+        "c": "<script src=\"xxx.js\"/>"
+      }
+    },
+    {
+      "pregunta": "¿Cómo se escribe \"Hello World\" en un cuadro de alerta?",
+      "respuesta_correcta": "b",
+      "opciones": {
+        "a": "msg(\"Hello World!\")",
+        "b": "alert(\"Hello World!\")",
+        "c": "show(\"Hello World!\")"
+      }
+    },
+    {
+      "pregunta": "¿Cómo se crea una función en JavaScript?",
+      "respuesta_correcta": "c",
+      "opciones": {
+        "a": "function:foo() { ... }",
+        "b": "function = foo() { ... }",
+        "c": "function foo() { ... } "
+      }
+    },
+    {
+      "pregunta": "¿Cómo llamas a una función llamada \"foo\"?",
+      "respuesta_correcta": "b",
+      "opciones": {
+        "a": "call function foo()",
+        "b": "foo()",
+        "c": "execute foo()"
+      }
+    },
+    {
+      "pregunta": "¿Qué evento ocurre cuando el usuario hace clic en un elemento HTML?",
+      "respuesta_correcta": "b",
+      "opciones": {
+        "a": "onmouseover",
+        "b": "onclick",
+        "c": "onaction"
+      }
+    },
+    {
+      "pregunta": "¿JavaScript distingue entre mayúsculas y minúsculas?",
+      "respuesta_correcta": "a",
+      "opciones": {
+        "a": "Si",
+        "b": "No",
+        "c": "Talvez 👀"
+      }
+    },
+    {
+      "pregunta": "¿Que convención de nombrado de variables se utiliza en javascript?",
+      "respuesta_correcta": "c",
+      "opciones": {
+        "a": "Pascal case",
+        "b": "Snake case",
+        "c": "Camel case"
+      }
+    },
+    {
+      "pregunta": "¿Cual de estas variables es de tipo no primitivo?",
+      "respuesta_correcta": "b",
+      "opciones": {
+        "a": "let number = 10",
+        "b": "let persona = { name : 'charlie' }",
+        "c": "let string = \"una cadena\""
+      }
+    },
+    {
+      "pregunta": "¿Que retorna el metodo 'split' aplicado en una cadena de caracteres?",
+      "respuesta_correcta": "a",
+      "opciones": {
+        "a": "Regresa un array separando los elementos de la cadena de caracteres pasando un argumento de separación",
+        "b": "Regresa un obejeto indexado con cada parte la cadena pasando un argumento de separación",
+        "c": "El metodo split no existe en javascript"
+      }
+    },
+    {
+      "pregunta": "¿Que retorna el siguiente bloque de codigo\n\nconst array = [1, 2, 3]\nconsole.log(array.at(-1))?",
+      "respuesta_correcta": "b",
+      "opciones": {
+        "a": "undefined ya que accedemos a un indice incorrecto",
+        "b": "retorna el ultimo elemento",
+        "c": "retorna el ultimo elemento restando -1"
+      }
+    },
+    {
+      "pregunta": "¿Como podemos hacer un salto de linea dentro de una cadena de caracteres?",
+      "respuesta_correcta": "a",
+      "opciones": {
+        "a": "usando \\n",
+        "b": "usando \\endl",
+        "c": "usando \\newline"
+      }
+    },
+    {
+      "pregunta": "¿Cual es el resultado de la siguiente expresion\n(true || false) && true?",
+      "respuesta_correcta": "a",
+      "opciones": {
+        "a": "true",
+        "b": "Type Error",
+        "c": "false"
+      }
+    },
+    {
+      "pregunta": "¿Cual es el lenguaje de programacion en el cual la identación tiene un significado?",
+      "respuesta_correcta": "b",
+      "opciones": {
+        "a": "java",
+        "b": "python",
+        "c": "c#"
+      },
+      "explicacion": "La indentación  en python sirve para delimitar la estructura permitiendo establecer bloques de código"
+    },
+    {
+      "pregunta": "¿Quién es el creador de Java?",
+      "respuesta_correcta": "c",
+      "opciones": {
+        "a": "Bill Gates",
+        "b": "Linus Torvalds",
+        "c": "James Gosling",
+        "d": "Larry Page"
+      }
+    },
+    {
+      "pregunta": "¿Cual es la manera correcta de tipar un numero entero en Java?",
+      "respuesta_correcta": "b",
+      "opciones": {
+        "a": "int",
+        "b": "String",
+        "c": "float"
+      },
+      "explicacion": "Por que String se usa para un tipo de dato en texto encerrado en comillas ('text') y float para un numero decimal(0.0)"
+    },
+    {
+      "pregunta": "¿Que significa la abreviatura WWW?",
+      "respuestaCorrecta": "c",
+      "alternativas": {
+        "a": "World Wailer Web",
+        "b": "Wireless World Web",
+        "c": "World Wide Web"
+      }
+    },
+    {
+      "pregunta": "¿Que es una constante?",
+      "respuesta_correcta": "c",
+      "opciones": {
+        "a": "un bloque de codigo",
+        "b": "un bloque de codigo cuyos valores cambian",
+        "c": "un bloque de codigo cuyos valores no cambian"
+      },
+      "explicacion": "las constantes son contenedores de valores que no cambian durante la ejecución del programa. Una vez que se ha asignado un valor a una constante, no se puede cambiar (Valor inmutable)."
+    },
+    {
+      "pregunta": "¿Cual es la manera correcta de tipar un numero entero en Java?",
+      "respuesta_correcta": "b",
+      "opciones": {
+        "a": "int",
+        "b": "String",
+        "c": "float"
+      }
+    },
+    {
+      "pregunta": "¿El lenguaje de JavaScript es compilado o interpretado?",
+      "respuesta_correcta": "b",
+      "opciones": {
+        "a": "compilado",
+        "b": "interpretado"
+      },
+      "explicacion": "El código JavaScript es interpretado, es decir, directamente traducido a código de lenguaje de máquina subyacente mediante un motor de JavaScript."
+    }
+  ]
+}

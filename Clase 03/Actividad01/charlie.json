@@ -1,0 +1,32 @@
+{
+  "academias": [
+    {
+      "tipo": "idiomas",
+      "nombre": "Next Lang",
+      "ubicacion": {
+        "calle": "calle principal 123",
+        "ciudad": "Villa Carlos Paz"
+      },
+      "cursos": [
+        {
+          "nombre": "Ingles",
+          "nivel": "basico",
+          "duracion_en_semanas": 4,
+          "precio_en_dolares": 100
+        },
+        {
+          "nombre": "Ingles",
+          "nivel": "avanzado",
+          "duracion_en_semanas": 20,
+          "precio_en_dolares": 400
+        },
+        {
+          "nombre": "Italiano",
+          "nivel": "basico",
+          "duracion_en_semanas": 5,
+          "precio_en_dolares": 120
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "equipo": {
+    "nombre": "Los exiliados",
+    "numero": 2,
+    "integrantes": [
+      {
+        "nombre": "Carlos",
+        "discord": "Khatanna",
+        "edad": 19
+      },
+      {
+        "nombre": "Daniel",
+        "discord": "xOnlinEx#9261",
+        "edad": 24
+      },
+      {
+        "nombre": "Marvin",
+        "discord": "Marvin#211",
+        "edad": 24
+      },
+      {
+        "nombre": "angel",
+        "discord": "Angels_st#9076",
+        "edad": 21
+      },
+      {
+        "nombre": "Helton",
+        "discord": "Helton#3123",
+        "edad": 20
+      },
+      {
+        "nombre": "bere",
+        "discord": "Bere#5223",
+        "edad": null
+      },
+      {
+        "nombre": "Alfredo",
+        "discord": "BOUM BOUM#0865",
+        "edad": 28
+      },
+      {
+        "nombre": "Alejandro",
+        "discord": "AleLuna#4187",
+        "edad": 36
+      }
+    ]
+  }
+}
