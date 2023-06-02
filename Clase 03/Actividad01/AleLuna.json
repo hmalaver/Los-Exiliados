@@ -1,0 +1,27 @@
+{
+  "academia": {
+    "nombre": "Next Lang",
+    "ubicacion": "ciudad de Villa Carlos Paz",
+    "Contacto": ["156734756", "154456234"],
+    "cursos": [
+      {
+        "nombre": "Inglés",
+        "nivel": "principiante",
+        "duracion": 4,
+        "precio": 100
+      },
+      {
+        "nombre": "Inglés",
+        "nivel": "avanzado",
+        "duracion":20,
+        "precio": 400
+      },
+      {
+        "nombre": "Italiano",
+        "nivel": "principiante",
+        "duracion": 5,
+        "precio": 120
+      }
+    ]
+  }
+}
