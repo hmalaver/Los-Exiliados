@@ -1,1 +1,0 @@
-Generar un JSON con preguntas y respuestas para un juego de trivia. Cada pregunta debe tener diferentes temáticas, la pregunta debe tener las siguientes propiedades, opciones de respuesta, la respuesta correcta y una explicación detallada de por qué esa opción es la correcta.
