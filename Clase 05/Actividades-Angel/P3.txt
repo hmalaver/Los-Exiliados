@@ -1,0 +1,8 @@
+public static void main(String[] args) {
+
+	Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite el numero de celular");
+        String celular = teclado.next();
+        System.out.println("https://api.whatsapp.com/send?phone="+celular);
+
+}

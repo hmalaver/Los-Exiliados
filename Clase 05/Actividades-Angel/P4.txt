@@ -1,0 +1,30 @@
+public static void main(String[] args) {
+
+	System.out.println("En expedicion te adentras en la selva del Peru y encuentras 2 cuevas una de ellas tiene una entrada grande " +
+                "y la otra un poco estrecha");
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Escoge una de las 2 opciones");
+        System.out.println("1. Entras por la cueva de entrada grande");
+        System.out.println("2. Entras por la cueva de entrada estrecha");
+        int op = teclado.nextInt();
+        if(op==1){
+            System.out.println("Dentro de la cueva vez una especie de riachuelo de color rojo como la sangre, te sigues adentrando y" +
+                    "encuentras un cofre");
+            System.out.println("Escoge una de las 2 opciones");
+            System.out.println("1. Abres el cofre");
+            System.out.println("2. Decides no abrirlo");
+            int op2 = teclado.nextInt();
+            if(op2==1){
+                System.out.println("Encuentras una joya hermosa pero la cueva se derrumba y mueres");
+            }
+            else{
+                System.out.println("Sigues tu camina y encuentras una salida al final de la cueva");
+            }
+        }
+        else{
+            System.out.println("Te adentras a ese estrecho lugar y sientes como tu cuerpo se desbanese y vez como unos pequeños " +
+                    "hombrecitos se te acercan y quedas totalmente dormido. Te despiertas y te das cuenta que no tienes" +
+                    "tus extremidades y poco a poco la llama de tu vida se va apagando... ");
+        }
+
+}
