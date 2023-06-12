@@ -1,0 +1,8 @@
+public static void main(String[] args) {
+
+	Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite el nombre de una celebridad");
+        String palabra = teclado.next();
+        System.out.println("https://twitter.com/search?q="+palabra);
+
+}
