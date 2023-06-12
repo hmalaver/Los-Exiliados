@@ -1,0 +1,19 @@
+public static void main(String[] args) {
+
+        int[] numeros = new int[5];
+        Scanner teclado = new Scanner(System.in);
+
+        for(int contador=0; contador<5; contador++){
+            System.out.println("Digite un numero");
+            numeros[contador]=teclado.nextInt();
+        }
+
+        int sumatoria = 0;
+        for(int contador=0;contador<5;contador++){
+            sumatoria = numeros[contador]+sumatoria;
+        }
+        double promedio = 0;
+        promedio=(float)sumatoria/5;
+        System.out.println("El promedio es:"+promedio);
+
+}

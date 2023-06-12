@@ -1,0 +1,24 @@
+public static void main(String[] args) {
+	int[] numeros = new int[5];
+        Scanner teclado = new Scanner(System.in);
+
+        for(int contador=0; contador<5; contador++){
+            System.out.println("Digite un numero");
+            numeros[contador]=teclado.nextInt();
+        }
+
+	int max=0;
+        int min=0;
+        for(int contador=0;contador<5;contador++){
+            if(max<numeros[contador] || max==0){
+                max=numeros[contador];
+            }
+            if(min>numeros[contador] || min==0){
+                min=numeros[contador];
+            }
+        }
+        System.out.println("El numero menor y mayor son: ");
+        System.out.println(min);
+        System.out.println(max);
+       
+}
