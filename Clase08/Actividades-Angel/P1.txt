@@ -1,0 +1,15 @@
+public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite la altura del triangulo");
+        float altura = teclado.nextInt();
+        System.out.println("Digite la base del triangulo");
+        float base = teclado.nextInt();
+        float resultado=calcularAreaTriangulo(altura,base);
+        System.out.println("El area es: "+resultado);
+
+
+    }
+    private static float calcularAreaTriangulo(float altura, float base){
+        return altura*base/2;
+
+    }
