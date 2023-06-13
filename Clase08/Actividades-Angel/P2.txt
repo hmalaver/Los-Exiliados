@@ -1,0 +1,16 @@
+*Area de un cuadrado*
+
+public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite el lado del cuadrado");
+        float lado = teclado.nextInt();;
+        float resultado=calcularAreaCuadrado(lado);
+        System.out.println("El area es: "+resultado);
+
+
+
+    }
+    private static float calcularAreaCuadrado(float lado){
+        return lado*lado;
+
+    }
